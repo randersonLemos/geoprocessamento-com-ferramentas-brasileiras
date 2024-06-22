@@ -5,7 +5,7 @@
 
 
 ## Descrição
-A função `patch_img_msk` segmenta uma imagem GeoTIFF de satélite (img_src) do programa CBERS04-A em segmentos (patches) de tamanho `img_dim` x `img_dim`. Os segmentos são salvos em formato GeoTIFF com metadados atualizados no diretório `img_dst`. Se fornecida uma máscara (`msk_src`), assume-se que é do programa TerraClass e gera imagens com sufixo `_img.tif` e máscaras com sufixo `_msk.tif`.
+A função `patch_img_msk` segmenta uma imagem GeoTIFF de satélite (img_src) do programa CBERS04-A em segmentos (patches) de tamanho `img_dim` x `img_dim`. Os segmentos são salvos em formato GeoTIFF com metadados atualizados no diretório `img_dst`. Se fornecida uma máscara (`msk_src`), assume-se que é do programa TerraClass. Gera imagens com sufixo `_img.tif` e máscaras com sufixo `_msk.tif`.
 
 ## Parâmetros
 - **img_src** (`str`): Caminho para a imagem de entrada no formato GeoTIFF. Padrão é `'img.tif'`.
@@ -27,11 +27,6 @@ A função `patch_img_msk` segmenta uma imagem GeoTIFF de satélite (img_src) do
    - Se uma máscara (`msk_src`) for fornecida, carrega a máscara e calcula os offsets necessários.
    - Segmenta a máscara utilizando o mesmo processo descrito para a imagem, ajustando para a resolução da máscara.
    - Redimensiona a máscara para combinar com a dimensão do patch e salva no diretório de saída com o sufixo `_msk.tif`.
-
-## Exemplo de Uso
-```python
-patch_img_msk(img_src='imagem_sat.tif', img_dst='saida_patches', img_dim=256, msk_src='mascara.tif')
-
 
 
 # Função de rasterização de shapefile
@@ -64,12 +59,6 @@ A função `rasterize_shapefile_patch` segmenta um shapefile a partir de coorden
 5. **Formatação da Máscara**:
    - A máscara rasterizada é formatada para ter uma forma adequada para processamento posterior.
 
-## Exemplo de Uso
-```python
-rasterize_shapefile_patch(msk_src='caminho_para_shapefile.shp', patch_x_UTM=500000, patch_y_UTM=7500000, img_dim_pixels=256, img_res=10)
-
-
-
 
 # Função de remoção de dados vazios
 
@@ -96,12 +85,6 @@ A função `remove_empty_data` elimina da máscara (`msk_src`) todo pixel de cla
 4. **Escrita dos Dados**:
    - Atualiza a imagem e a máscara com os dados processados e escreve de volta nos arquivos originais.
 
-## Exemplo de Uso
-```python
-remove_empty_data(img_src='imagem_multicanal.tif', msk_src='mascara.tif', channel_order='channels_last')
-
-
-
 
 # Função criação de dataset
 
@@ -126,8 +109,3 @@ A função `create_dataset` organiza imagens e máscaras em diretórios específ
    - Cria os diretórios `train/img`, `train/msk`, `validate/img`, `validate/msk`, `test/img`, `test/msk` dentro de `img_dst`.
 4. **Movimentação dos Arquivos**:
    - Move os arquivos de imagens e máscaras para os diretórios apropriados de treinamento, validação e teste, mantendo os pares juntos.
-
-## Exemplo de Uso
-```python
-create_dataset(img_dst='patches', train_size=0.7, random_state=42)
-

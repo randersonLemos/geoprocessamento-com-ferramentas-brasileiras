@@ -1,3 +1,6 @@
+## Introdução
+Principais componentes, conceitos, e materiais comprendidos dentro do repositório de disseminação de ferramentas SIG em python são apresentados. Para instigar o leitor já são mostrados exemplos sucintos de uso das ferramentas python. Há espaço também para uma explanação acerca do satélite CBERS-04. Uma introdução à tecnica de segmentação de imagens é feita.
+
 ### Geoprocessamento
 O geoprocessamento é o conjunto de técnicas e tecnologias utilizadas para a coleta, processamento, análise e apresentação de dados geoespaciais. Envolve a manipulação de informações geográficas para criar mapas, realizar análises espaciais, modelar fenômenos e tomar decisões baseadas em dados espaciais. O geoprocessamento combina conhecimentos de cartografia, sensoriamento remoto, Sistemas de Informação Geográfica (SIG), entre outros campos, para fornecer uma visão abrangente e detalhada do mundo ao nosso redor.
 

@@ -2,9 +2,9 @@
 # Repositório
 Repositório educacional **open-source** de geoprocessamento que apresenta noções introdutórias da área a partir de uma perspectiva de lógica de programação. É voltado para ferramentas de Sistemas de Informação Geográfica (SIG) presentes na linguagem de programação Python. Apresenta conteúdo em português como forma de facilitar seu acesso aos falantes da lingua e, em particular, aos falantes brasileiros. 
 
-Para os mais entusiastas, há o fornecimento de funções auxiliáres de geoprocessamento projetadas para cobrir lacunas de usabilidade das ferramentas analisadas. Estas funções fazem a **carga sistemática de imagens**, ***patching* de imagens**, **rasterização de *shapefiles***, **alinhamento de imagens e mascaras**, **filtragem de dados vazios**, **criação de datasets**. Seções específicas serão dedicadas a cada uma dessas funções.
+Para os mais entusiastas, há o fornecimento de funções auxiliares de geoprocessamento projetadas para cobrir lacunas de usabilidade das ferramentas analisadas. Estas funções fazem a **carga sistemática de imagens**, ***patching* de imagens**, **rasterização de *shapefiles***, **alinhamento de imagens e máscaras**, **filtragem de dados vazios**, **criação de datasets**. Seções específicas serão dedicadas a cada uma dessas funções.
 
-Os exemplos de uso das funções auxiliares utilizam informações do satélite CBERS-04. A que integra os recursos do programa  de satélites China-Brazil Earth Resources Satellite (CBERS).
+Os exemplos de uso das funções auxiliares utilizam informações do satélite CBERS-04, que integra os recursos do programa  de satélites China-Brazil Earth Resources Satellite (CBERS).
 
 ## Conteúdo
 - [Funções](https://github.com/randersonLemos/geoprocessamento-com-ferramentas-brasileiras/tree/main/funcoes)
@@ -17,7 +17,7 @@ Nós agradecemos a sua ajuda! Antes de contribuir, certifique-se de respeitar as
 1. Certifique-se de que seu código está bem documentado.
 2. Siga o estilo de código do projeto.
 3. Teste suas mudanças antes de submetê-las.
-4. Mantenha os commits organizados e com mensagens claras.
+4. Mantenha os _commits_ organizados e com mensagens claras.
 5. Lembre-se de checar se está na pasta correta.
 6. Certifique-se de que está respeitando a licença.
 7. Respeite os outros contribuintes e usuários.
@@ -25,8 +25,8 @@ Nós agradecemos a sua ajuda! Antes de contribuir, certifique-se de respeitar as
 
 Agora, para contribuir com este projeto, siga os passos abaixo:
 
-1. **Fork o repositório**
-   - Clique no botão "Fork" no canto superior direito da página para criar uma cópia deste repositório na sua conta do GitHub.
+1. **_Fork_ o repositório**
+   - Clique no botão _"Fork"_ no canto superior direito da página para criar uma cópia deste repositório na sua conta do _GitHub_.
 
 2. **Clone o repositório**
    - No seu terminal, clone o repositório com o comando:
@@ -34,8 +34,8 @@ Agora, para contribuir com este projeto, siga os passos abaixo:
      git clone https://github.com/seu-usuario/nome-do-repositorio.git
      ```
 
-3. **Crie uma nova branch**
-   - Antes de fazer qualquer modificação, crie uma nova branch para suas mudanças:
+3. **Crie uma nova _branch_**
+   - Antes de fazer qualquer modificação, crie uma nova _branch_ para suas mudanças:
      ```bash
      git checkout -b minha-nova-feature
      ```
@@ -43,21 +43,21 @@ Agora, para contribuir com este projeto, siga os passos abaixo:
 4. **Faça suas mudanças**
    - Faça as alterações necessárias no código.
 
-5. **Faça commit das suas mudanças**
-   - Após fazer as mudanças, adicione e faça commit das suas alterações:
+5. **Faça _commit_ das suas mudanças**
+   - Após fazer as mudanças, adicione e faça _commit_ das suas alterações:
      ```bash
      git add .
      git commit -m "Descrição das minhas mudanças"
      ```
 
-6. **Envie suas mudanças para o GitHub**
-   - Envie as mudanças para o seu repositório forkado:
+6. **Envie suas mudanças para o _GitHub_**
+   - Envie as mudanças para o seu repositório _"forkado"_:
      ```bash
      git push origin minha-nova-feature
      ```
 
-7. **Abra um Pull Request**
-   - No repositório original, vá para a aba "Pull Requests" e clique em "New Pull Request". Selecione a sua branch com as mudanças e submeta o Pull Request.
+7. **Abra um _Pull Request_**
+   - No repositório original, vá para a aba "_Pull Requests_" e clique em "_New Pull Request_". Selecione a sua _branch_ com as mudanças e submeta o _Pull Request_.
 
 
 ## Licença

@@ -7,8 +7,8 @@ O conteúdo deste diretório está organizado por assunto. O conteúdo de cada s
 O nome de cada arquivo segue o padrão: `\<sobrenome do primeiro autor\>,"\<título original do artigo\>".pdf`
 
 ### Assuntos
-- CBERS: Artigos sobre o projeto CBERS
-- Shapefiles Rateirization: Artigos sobre rateirização de _shapefiles_
+- [CBERS](https://github.com/randersonLemos/geoprocessamento-com-ferramentas-brasileiras/tree/main/artigos/CBERS): Artigos sobre o projeto CBERS
+- [Shapefiles Rasterization](https://github.com/randersonLemos/geoprocessamento-com-ferramentas-brasileiras/tree/main/artigos/Shapefiles%20Rasterization): Artigos sobre rateirização de _shapefiles_
 
 ## Contribuido
 Achou algum artigo que acha interessante que a comunidade fique sabendo? Para contribuir basta seguir o [passo-a-passo de contribuição](https://github.com/randersonLemos/geoprocessamento-com-ferramentas-brasileiras?tab=readme-ov-file#contribuindo) do repositório se atentando aos seguintes detalhes:

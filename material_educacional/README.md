@@ -81,4 +81,4 @@ Uma máscara de segmentação é uma técnica utilizada em processamento de imag
 * **Visão computacional**: segmentação de objetos em imagens para aplicações em robótica e automação; reconhecimento de padrões em imagens médicas para diagnósticos assistidos por computador.
 
 Uma ilustração do process de segmentação é apresentado. Nesse exemplo o mapa orignal (mapa da esquerda) passa por um processo de segmentação por meio do uso da máscara (mapa central) que modo a resultas em uma mapa segmentando, isto é, com especificação de diferentes padões de interesse que podem ser, por exemplo, área urbana, área de floresta, área de protenção ambiental e etc.
-![image info](./assets/segmentation.png)
+![image info](../assets/segmentation.png)
